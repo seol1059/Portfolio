@@ -192,61 +192,61 @@ const date = document.querySelector(".date");
 
 //모달에 출력되어야할 값들의 배열
 const modalInfo = [{
-        url: "http://guswjd8694.dothome.co.kr/php/pages/main.php",
-        client: "STUDY",
-        description: "WEB STANDARD SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "STUDY",
-        description: "WEB RESPONSIVE SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "STUDY",
-        description: "MEGABOX SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "STUDY",
-        description: "REACT SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY, REACT",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "STUDY",
-        description: "DOTHOME SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "TEAM PROJECT",
-        description: "GOODNIGHT SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY, PHP",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "TEAM PROJECT",
-        description: "APPLE SITE",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
-    {
-        url: "https://guswjd8694.github.io/dothome2021/portfolio/",
-        client: "STUDY",
-        description: "SCRIPT",
-        role: "HTML, CSS, JAVASCRIPT, JQUERY",
-        date: "2021.10"
-    },
+    url: "https://seol1059.github.io/project1/",
+    client: "STUDY",
+    description: "WEB STANDARD SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/No.2/",
+    client: "STUDY",
+    description: "WEB RESPONSIVE SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/No.3/",
+    client: "STUDY",
+    description: "MEGABOX SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
+{
+    url: "https://tuesdayy96.github.io/team_project/",
+    client: "STUDY",
+    description: "REACT SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY, REACT",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/No.4/",
+    client: "STUDY",
+    description: "DOTHOME SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/No.5/",
+    client: "TEAM PROJECT",
+    description: "GOODNIGHT SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY, PHP",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/Millie/",
+    client: "TEAM PROJECT",
+    description: "APPLE SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
+{
+    url: "https://seol1059.github.io/Portfolio/",
+    client: "STUDY",
+    description: "SCRIPT",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2021.10"
+},
 ]
 
 //프로젝트를 클릭하기 위한 project 반복 

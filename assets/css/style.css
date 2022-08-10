@@ -1688,6 +1688,14 @@
     margin-bottom: 40px;
     background-color: #000;
   }
+
+  .frame a:nth-of-type(1) {
+    /* width: 700px;
+    height: 400px; */
+    background-image: url("./assets/img/moon.png");
+    /* background-position: center;
+    background-size: cover; */
+  }
   
   .modal iframe {
     position: absolute;
@@ -1695,7 +1703,13 @@
     height: 400px;
     margin-bottom: 50px;
   }
-  
+
+  /* .modal iframe:nth-of-type(1){
+    background-image: url("./assets/img/58.jpg");
+    background-position: center;
+    background-size: cover;
+  } */
+
   .modal .explain {}
   
   .modal .explain ul {
