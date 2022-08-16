@@ -469,6 +469,7 @@
     z-index: 100;
     animation: ship 0.8s infinite alternate cubic-bezier(0.43, 0.04, 0.53, 0.99)
   }
+
   
   .waveWrap {
     position: relative;
@@ -748,9 +749,10 @@
   }
   
   .tree2 {
+    width: 150px;
     position: absolute;
-    left: 0%;
-    bottom: 0%;
+    left: 29%;
+    bottom: 34%;
     z-index: 5;
   }
   
