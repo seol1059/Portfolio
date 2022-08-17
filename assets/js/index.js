@@ -403,3 +403,62 @@ for(let i = 0; i < list.length; i++){
 }
 
 console.log(activeCont);
+
+
+
+
+
+
+
+
+
+
+var HEIGHT,WIDTH;
+    var lake = document.getElementById("lake");
+    window.addEventListener('resize', handleResize, false);
+    handleResize();
+    
+    function handleResize(){
+      HEIGHT = window.innerHeight,
+      WIDTH = window.innerWidth;
+    }
+    
+    onmousedown = function(event){
+      createRipples(event.pageX, event.pageY);
+    }
+    
+    function createRipples(x,y){
+      var tx = x || Math.random()*WIDTH;
+      var ty = y || (Math.random()+.5)*HEIGHT*.5;
+      var spltch = document.getElementById("sploutch");
+      var cln = spltch.cloneNode(true);
+      cln.style.left=(tx-150) +"px";
+      cln.style.top=(ty-150) +"px";
+      lake.appendChild(cln);
+      // remove it from the dom after a while
+      setTimeout(function(){
+        lake.removeChild(cln);
+      }, 4000);
+    }
+    
+    setInterval(createRipples, 200);
+    
+    var img = document.querySelector("#displacementFilter feTurbulence");
+    var frames = 0;
+    var rad = Math.PI / 180;
+    
+    function AnimateBaseFrequency() {
+      //baseFrequency="0.01 .1"
+      bfx = 0.01;
+      bfy = .1;
+      frames += .25
+      bfx += 0.001 * Math.cos(frames * rad);
+      bfy += 0.005 * Math.sin(frames * rad);
+    
+      bf = bfx.toString() + ' ' + bfy.toString();
+      img.setAttributeNS(null, 'baseFrequency', bf);
+    
+      window.requestAnimationFrame(AnimateBaseFrequency);
+    }
+    
+    window.requestAnimationFrame(AnimateBaseFrequency);
