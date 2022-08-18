@@ -194,59 +194,66 @@ const date = document.querySelector(".date");
 const modalInfo = [{
     url: "https://seol1059.github.io/project1/",
     client: "STUDY",
-    description: "WEB STANDARD SITE",
+    description: "WEB PROP SHOP SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    date: "2022.04"
 },
 {
     url: "https://seol1059.github.io/No.2/",
     client: "STUDY",
-    description: "WEB RESPONSIVE SITE",
+    description: "WEB CITY POP SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    date: "2022.05"
 },
 {
     url: "https://seol1059.github.io/No.3/",
     client: "STUDY",
-    description: "MEGABOX SITE",
+    description: "GRAPHIC ARTWORK SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    date: "2022.06"
 },
 {
     url: "https://tuesdayy96.github.io/team_project/",
     client: "STUDY",
-    description: "REACT SITE",
-    role: "HTML, CSS, JAVASCRIPT, JQUERY, REACT",
-    date: "2021.10"
+    description: "KOREAN AIR SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2022.05"
 },
 {
     url: "https://seol1059.github.io/No.4/",
     client: "STUDY",
-    description: "DOTHOME SITE",
+    description: "LA CASA DE PAPEL SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    date: "2022.07"
 },
 {
     url: "https://seol1059.github.io/No.5/",
-    client: "TEAM PROJECT",
-    description: "GOODNIGHT SITE",
-    role: "HTML, CSS, JAVASCRIPT, JQUERY, PHP",
-    date: "2021.10"
+    client: "STUDY",
+    description: "BINGGRAE SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY",
+    date: "2022.07"
 },
 {
     url: "https://seol1059.github.io/Millie/",
-    client: "TEAM PROJECT",
-    description: "APPLE SITE",
-    role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    client: "STUDY",
+    description: "Millie SITE",
+    role: "HTML, CSS, JAVASCRIPT, JQUERY , AJAX",
+    date: "2022.07"
 },
 {
     url: "https://seol1059.github.io/Portfolio/",
     client: "STUDY",
-    description: "SCRIPT",
+    description: "PORTFOLIO_HTML SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2021.10"
+    date: "2022.08"
 },
+{
+    url: "https:",
+    client: "STUDY",
+    description: "PORTFOLIO_DESIGN SITE",
+    role: "PHOTOSHOP , ILLUSTRATION , PREMIEREPRO",
+    date: "-"
+}
 ]
 
 //프로젝트를 클릭하기 위한 project 반복 
