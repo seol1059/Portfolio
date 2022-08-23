@@ -193,6 +193,7 @@ const date = document.querySelector(".date");
 //모달에 출력되어야할 값들의 배열
 const modalInfo = [{
     url: "https://seol1059.github.io/project1/",
+    bg:"background-image: url('./assets/img/1.png')",
     client: "STUDY",
     description: "WEB PROP SHOP SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -200,6 +201,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.2/",
+    bg:"background-image: url('./assets/img/2.png')",
     client: "STUDY",
     description: "WEB CITY POP SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -207,6 +209,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.3/",
+    bg:"background-image: url('./assets/img/3.png')",
     client: "STUDY",
     description: "GRAPHIC ARTWORK SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -214,6 +217,7 @@ const modalInfo = [{
 },
 {
     url: "https://tuesdayy96.github.io/team_project/",
+    bg:"background-image: url('./assets/img/6.png')",
     client: "STUDY",
     description: "KOREAN AIR SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -221,6 +225,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.4/",
+    bg:"background-image: url('./assets/img/4.png')",
     client: "STUDY",
     description: "LA CASA DE PAPEL SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -228,6 +233,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.5/",
+    bg:"background-image: url('./assets/img/5.png')",
     client: "STUDY",
     description: "BINGGRAE SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY",
@@ -235,18 +241,19 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/Millie/",
+    bg:"background-image: url('./assets/img/7.png')",
     client: "STUDY",
     description: "Millie SITE",
     role: "HTML, CSS, JAVASCRIPT, JQUERY , AJAX",
     date: "2022.07"
 },
-{
-    url: "https://seol1059.github.io/Portfolio/",
-    client: "STUDY",
-    description: "PORTFOLIO_HTML SITE",
-    role: "HTML, CSS, JAVASCRIPT, JQUERY",
-    date: "2022.08"
-},
+// {
+//     url: "https://seol1059.github.io/Portfolio/",
+//     client: "STUDY",
+//     description: "PORTFOLIO_HTML SITE",
+//     role: "HTML, CSS, JAVASCRIPT, JQUERY",
+//     date: "2022.08"
+// },
 {
     url: "https:",
     client: "STUDY",
@@ -291,7 +298,7 @@ function updateModal(index) {
                     </div>
 
                     <div class="modal goodnight">
-                        <div class="frame"><a href="${modalInfo[index].url}"></a></div>
+                        <div class="frame" style="${modalInfo[index].bg}"><a href="${modalInfo[index].url}"></a></div>
                         <div class="explain">
                             <ul>
                                 <li>
