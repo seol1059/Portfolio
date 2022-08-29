@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   user-select: none;
   -ms-user-select: none;
@@ -1056,20 +1063,23 @@ canvas {
 }
 
 .skill ul li .skillType {
-  font-family: 'ML';
-  font-size: 14px;
+  /* font-family: 'ML'; */
+  font-family: 'HBIOS-SYS';
+  font-size: 20px;
   font-weight: 300;
   color: rgb(34, 34, 34);
 }
 
 .skill ul li .skillName {
-  font-family: 'ML';
-  font-size: 24px;
+  /* font-family: 'ML'; */
+  font-family: 'HBIOS-SYS';
+  font-size: 28px;
   font-weight: 300;
 }
 
 .skill ul li .skillNumber {
-  font-family: 'ML';
+  /* font-family: 'ML'; */
+  font-family: 'HBIOS-SYS';
   font-size: 40px;
   font-weight: 300;
   color: #2423b6;

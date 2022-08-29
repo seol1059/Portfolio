@@ -258,7 +258,7 @@ const modalInfo = [{
     url: "https:",
     client: "STUDY",
     description: "PORTFOLIO_DESIGN SITE",
-    role: "PHOTOSHOP , ILLUSTRATION , PREMIEREPRO",
+    role: "PHOTOSHOP , ILLUSTRATION , PREMIERE PRO , AFTER EFFECTS",
     date: "-"
 }
 ]
