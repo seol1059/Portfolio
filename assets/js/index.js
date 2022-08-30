@@ -256,6 +256,7 @@ const modalInfo = [{
 // },
 {
     url: "https:",
+    bg:"background-image: url('./assets/img/8.png')",
     client: "STUDY",
     description: "PORTFOLIO_DESIGN SITE",
     role: "PHOTOSHOP , ILLUSTRATION , PREMIERE PRO , AFTER EFFECTS",
