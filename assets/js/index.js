@@ -255,7 +255,7 @@ const modalInfo = [{
 //     date: "2022.08"
 // },
 {
-    url: "https:",
+    url: "https://seol1059.github.io/No.6/",
     bg:"background-image: url('./assets/img/8.png')",
     client: "STUDY",
     description: "PORTFOLIO_DESIGN SITE",
