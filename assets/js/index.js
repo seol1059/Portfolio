@@ -256,7 +256,7 @@ const modalInfo = [{
 // },
 {
     url: "https://seol1059.github.io/No.6/",
-    bg:"background-image: url('./assets/img/8.png')",
+    bg:"background-image: url('./assets/img/i.png')",
     client: "STUDY",
     description: "PORTFOLIO_DESIGN SITE",
     role: "PHOTOSHOP , ILLUSTRATION , PREMIERE PRO , AFTER EFFECTS",
