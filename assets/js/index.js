@@ -370,7 +370,7 @@ const nav = document.querySelectorAll(".nav");
 const activeCont = [0, 5700, 10900, 31550, 34000];
 let flag = true;
 console.log(list)
-var bgm = new Audio("./assets/bgm/wish.mp3");
+var bgm = new Audio("./assets/bgm/Like_a_dream.mp3");
     bgm.volume = 0.3;
     bgm.addEventListener('ended', function() {
         this.currentTime = 0;

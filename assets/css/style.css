@@ -616,6 +616,9 @@ canvas {
 
 .cls-2 image {
   object-fit: cover;
+  width: 90%;
+  height: 95%;
+  margin: 0 auto;
 }
 
 .introduce p {
