@@ -193,7 +193,7 @@ const date = document.querySelector(".date");
 //모달에 출력되어야할 값들의 배열
 const modalInfo = [{
     url: "https://seol1059.github.io/project1/",
-    bg:"background-image: url('../img/1.png')",
+    bg:"background-image: url('./assets/img/1.png')",
     // cover:"url('../img/1.png')",
     client: "STUDY",
     description: "WEB PROP SHOP SITE",
