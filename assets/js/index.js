@@ -193,7 +193,7 @@ const date = document.querySelector(".date");
 //모달에 출력되어야할 값들의 배열
 const modalInfo = [{
     url: "https://seol1059.github.io/project1/",
-    bg:"background-image: url('./assets/img/1.png')",
+    bg:"background-image: url('./img/1.png')",
     // cover:"url('../img/1.png')",
     client: "STUDY",
     description: "WEB PROP SHOP SITE",
@@ -202,7 +202,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.2/",
-    bg:"background-image: url('./assets/img/2.png')",
+    bg:"background-image: url('./img/2.png')",
     // cover:"url('../assets/img/2.png')",
     client: "STUDY",
     description: "WEB CITY POP SITE",
@@ -211,7 +211,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.3/",
-    bg:"background-image: url('./assets/img/3.png')",
+    bg:"background-image: url('./img/3.png')",
     // cover:"url('../assets/img/3.png')",
     client: "STUDY",
     description: "GRAPHIC ARTWORK SITE",
@@ -220,7 +220,7 @@ const modalInfo = [{
 },
 {
     url: "https://tuesdayy96.github.io/team_project/",
-    bg:"background-image: url('./assets/img/6.png')",
+    bg:"background-image: url('./img/6.png')",
     // cover:"url('../assets/img/6.png')",
     client: "STUDY",
     description: "KOREAN AIR SITE",
@@ -229,7 +229,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.4/",
-    bg:"background-image: url('./assets/img/4.png')",
+    bg:"background-image: url('./img/4.png')",
     // cover:"url('../assets/img/4.png')",
     client: "STUDY",
     description: "LA CASA DE PAPEL SITE",
@@ -238,7 +238,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/No.5/",
-    bg:"background-image: url('./assets/img/5.png')",
+    bg:"background-image: url('./img/5.png')",
     // cover:"url('../assets/img/5.png')",
     client: "STUDY",
     description: "BINGGRAE SITE",
@@ -247,7 +247,7 @@ const modalInfo = [{
 },
 {
     url: "https://seol1059.github.io/Millie/",
-    bg:"background-image: url('./assets/img/7.png')",
+    bg:"background-image: url('./img/7.png')",
     // cover:"url('../assets/img/7.png')",
     client: "STUDY",
     description: "Millie SITE",
@@ -263,7 +263,7 @@ const modalInfo = [{
 // },
 {
     url: "https://seol1059.github.io/No.6/",
-    bg:"background-image: url('./assets/img/i.png')",
+    bg:"background-image: url('./img/i.png')",
     // cover:"url('../assets/img/i.png')",
     client: "STUDY",
     description: "PORTFOLIO_DESIGN SITE",
